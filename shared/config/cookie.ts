@@ -1,7 +1,6 @@
 import Cookies from 'universal-cookie';
 import { addMonths } from 'date-fns';
 import { CookieKey } from 'shared/constant/common';
-import { getCurrentDomain } from 'shared/utils';
 
 const cookies = new Cookies();
 export const CookiesStorage = {
@@ -9,14 +8,12 @@ export const CookiesStorage = {
     return cookies.get(key);
   },
   setCookieData(key: string, data: string) {
-    const domain = getCurrentDomain();
     const currentTime = new Date();
     const expires = addMonths(currentTime, 1);
-    cookies.set(key, data, { domain, expires, path: '/' });
+    cookies.set(key, data, { expires, path: '/' });
   },
   clearCookieData(key: string) {
-    const domain = getCurrentDomain();
-    cookies.remove(key, { domain, path: '/' });
+    cookies.remove(key, { path: '/' });
   },
 
   getAccessToken() {
@@ -24,18 +21,15 @@ export const CookiesStorage = {
   },
 
   setAccessToken(accessToken: string) {
-    const domain = getCurrentDomain();
     const currentTime = new Date();
     const expires = addMonths(currentTime, 1);
     cookies.set(CookieKey.accessToken, accessToken, {
-      domain,
       path: '/',
       expires,
     });
   },
   clearAccessToken() {
-    const domain = getCurrentDomain();
-    cookies.remove(CookieKey.accessToken, { domain });
+    cookies.remove(CookieKey.accessToken);
   },
 
   authenticated() {
