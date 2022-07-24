@@ -1,0 +1,7 @@
+export const authConstants = {
+  LOGIN: 'LOGIN',
+  LOGIN_WITH_GOOGLE:'LOGIN_WITH_GOOGLE',
+  GET_ME: 'GET_ME',
+  LOGOUT: 'LOGOUT',
+  REGISTER: 'REGISTER',
+};

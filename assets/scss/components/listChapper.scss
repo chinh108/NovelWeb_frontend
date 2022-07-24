@@ -1,0 +1,22 @@
+.statistic-top, .unstyled, .user-private-tabs, ul.list-chapters, ul.mail-participants, ul.others-list li {
+  list-style: none;
+  text-decoration: none;
+}
+ul.list-chapters {
+  margin: 0;
+  padding: 0;
+  li {
+    padding: 5px 10px;
+    position: relative;
+    .chapter-name {
+      padding-right: 86px;
+    }
+    .chapter-time {
+      color: #aaa;
+      font-size: 14px;
+      position: absolute;
+      right: 10px;
+      top: 4px;
+    }
+  }
+}

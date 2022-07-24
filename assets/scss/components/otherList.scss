@@ -1,0 +1,30 @@
+ul.others-list {
+  margin: 0;
+  padding: 0;
+  li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    .others-img {
+      float: left;
+      margin-right: 10px;
+      width: 50px;
+    }
+    .others-info {
+      padding-left: 60px;
+    }
+    .others-name {
+      display: block;
+      font-weight: 700;
+      overflow: hidden;
+      padding-bottom: 4px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    small.series-summary {
+      white-space: normal;
+    }
+    small {
+      display: block;
+    }
+  }
+}

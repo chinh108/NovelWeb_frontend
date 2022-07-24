@@ -1,0 +1,106 @@
+
+#mainpart {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: 100%;
+}
+#mainpart.reading-page {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-top: 0;
+  position: relative;
+}
+#mainpart.reading-page.style-3, #mainpart.reading-page.style-3 #rd-side_icon {
+  background-color: #f6f4ec;
+}
+.reading-content, .reading-content h2, .reading-content h4, .reading-content h5 {
+  line-height: 15px;
+}
+@media (min-width: 992px) {
+  .offset-lg-1 {
+    margin-left: 8.33333333%;
+  }
+}
+.strong, b, h5, h6, strong {
+  font-weight: 700;
+}
+h5, h6 {
+  color: #333;
+  margin-bottom: 0.1em;
+}
+.feature-section.at-volume .series-name, .forum-page_edit, .fs-6, .profile-feature .profile-tab_name, .rank-cirle .series-detail .series-title, h6 {
+  font-size: 14px;
+  line-height: 22px;
+}
+#chapter-content {
+  font-family: Times New Roman,Georgia,serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.rd-basic_icon {
+  background-color: #eee;
+  border: 1px solid #d0d0d0;
+  border-radius: 30px;
+  height: 40px;
+  margin: 30px 0;
+  overflow: hidden;
+  width: 100%;
+}
+#chapter-content p {
+  margin: 0 0 20px;
+}
+.reading-page p {
+  word-wrap: break-word;
+  display: block;
+}
+.reading-content p {
+  text-align: justify;
+}
+.sub-index-style {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px;
+  .title-wrapper {
+    margin-bottom: 10px;
+  }
+  .section-title {
+    background-color: #f5f5f5;
+    border: 1px solid #d4dae2;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 4px 10px;
+    position: relative;
+  }
+  .filter-type {
+    margin: 0;
+    padding: 0 10px;
+    .filter-type_item {
+      padding: 4px 0;
+      &.active {
+        background-color: #36a189;
+        color: #fff;
+      }
+    }
+  }
+}
+.filter-section {
+  .submit-wrapper {
+    margin-top: 10px;
+    text-align: right;
+  }
+}
+.statistic-top, .unstyled, .user-private-tabs, ul.list-chapters, ul.mail-participants, ul.others-list li {
+  list-style: none;
+  text-decoration: none;
+}
+.button-primary-green {
+  background-color: #36a189;
+  border-color: #0f9779;
+  color: #fff;
+}

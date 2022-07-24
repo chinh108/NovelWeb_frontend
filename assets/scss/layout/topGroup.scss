@@ -1,0 +1,20 @@
+.page-top-group {
+  // padding-top: 46px;
+  .index-background {
+    background: #e8e9ec url(/images/bg-header-green.png) no-repeat 50%;
+    height: 180px;
+    width: 100%;
+  }
+}
+* {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+}
+
+body {
+  color: #111;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  background: rgba(227,229,232,.3);
+}

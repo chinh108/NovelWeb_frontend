@@ -1,0 +1,26 @@
+@import 'react-multi-carousel/lib/styles.css';
+@import 'react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.min.css';
+@import 'react-toastify/dist/ReactToastify.css';
+// Package SunEditor
+@import "suneditor/dist/css/suneditor.min.css";
+
+@import 'bootstrap';
+
+@import 'layout';
+@import 'components';
+
+//Label
+form {
+  .required .col-form-label:after { 
+    content:"*";
+    color:red;
+  }
+}
+.disabled, [disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+  pointer-events: none;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 0, 0.55);
+}

@@ -1,0 +1,109 @@
+.board_categ-list {
+  border-radius: 4px;
+  display: inline-block;
+  max-width: 200px;
+  min-width: 160px;
+  overflow: hidden;
+}
+.button-newpost {
+  float: right;
+}
+.button {
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  line-height: normal;
+  padding: 6px 20px;
+  transition: all .3s;
+  text-decoration: none;
+}
+.button-green {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  color: #fff;
+}
+.button, .button:hover {
+  color: #000;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #eee;
+}
+.button-green:hover {
+  color: #5cb85c;
+}
+.basic-section {
+  margin-bottom: 20px;
+  .sect-header {
+    font-weight: 700;
+    .sect-title {
+      font-size: 16px;
+      line-height: 22px;
+      display: inline-block;
+      margin-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+#licensed-list header.section-title, #tba-list header.section-title, .basic-section .sect-header, .detail-list header.section-title, .modal-header, .private-tabs header, table.broad-table tr th {
+  background-color: #f4f5f6;
+  border-bottom: 1px solid #dadbdd;
+  padding: 10px;
+}
+section.basic-section {
+  main {
+    padding: 10px;
+  }
+}
+.page-author {
+  .author_ava {
+    border-radius: 40px;
+    border-radius: 1px solid #aaa;
+    float: left;
+    height: 46px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 46px;
+    img {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .author_name {
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .author_role {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+.page-author.group-admin .author_role span {
+  background-color: #bc4553;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.page-content {
+  .topic-time {
+    color: rgba(0,0,0,.4);
+    float: right;
+  }
+}
+.forum-page-content {
+  word-wrap: break-word;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+#chapter-comments .tab-list .tab-off, #series-comments .tab-list .tab-off, .comment-item .comment-user_name, .comment-item-at-index .comment-user_name, .daily-recent_views .top-tab_title, .daily-recent_views .top-tab_title.title-active, .forum-page-content, .fs-5, h5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+p {
+  margin: 0.4em 0;
+}

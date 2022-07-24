@@ -1,0 +1,52 @@
+#mainpart {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: 100%;
+}
+.page-title {
+  margin-bottom: 20px;
+  .page-name_wrapper {
+    .page-name {
+      font-weight: 700;
+    }
+  }
+}
+.search-form_wrapper {
+  margin-bottom: 20px;
+}
+
+.search-form {
+  &.in {
+    float: left;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  &.submit {
+    background-color: #36a189;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-weight: 700;
+    height: 40px;
+    padding: 5px 20px;
+  }
+}
+#licensed-list header.section-title span, #tba-list header.section-title span, .detail-list header.section-title span, .feature-section.at-volume .volume-name, .fs-3, .page-title .page-name_wrapper .page-name, .statistic-top .statistic-value, h3 {
+  font-size: 22px;
+  line-height: 30px;
+}
+.basic-section {
+  margin-bottom: 20px;
+}
+.basic-section, .board-list, .board_categ-list, .detail-list, .feature-section, .mail-page .mail-detail-list, .modal-content, .page-breadcrumb, .private-tabs, .profile-feature, .series-users, .showcase-item, .sub-index-style, .user-pm .mail-list {
+  background-color: hsla(0,0%,100%,.9);
+  border-color: #e4e5e7 #dadbdd hsla(210,4%,80%,.8);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+section.basic-section main {
+  padding: 10px;
+}

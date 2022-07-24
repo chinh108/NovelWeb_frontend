@@ -1,0 +1,99 @@
+#recent-comments {
+  .index-section {
+    main {
+      height: 700px;
+      overflow: auto;
+      padding-right: 5px;
+    }
+  }
+}
+.comment-item-at-index {
+  border-bottom: 1px solid #d4dae2;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  .series-name {
+    display: block;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+  }
+  .comment-content {
+    margin-bottom: 6px;
+    overflow: hidden;
+  }
+  .comment-ellipsis {
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  .comment-top {
+    margin-bottom: 6px;
+  }
+  .comment-user_ava {
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    overflow: hidden;
+    width: 24px;
+    img {
+      border-radius: 25px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .comment-user_name {
+    color: rgba(0,0,0,.4);
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .comment-location {
+    color: rgba(0,0,0,.4);
+    float: right;
+  }
+}
+img, svg {
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+
+#tba-list .tba-item .info-item, #tba-list .tba-item .tba-detail .series-title, .attached-series .series-info .series-name, .bookmark-item .series-title, .comment-item .comment-location, .comment-item .comment-user_name, .comment-item .series-name, .comment-item-at-index .comment-location, .comment-item-at-index .comment-user_name, .comment-item-at-index .series-name, .daily-recent_views .sub-line, .last-topics .topic-data, .licensed-list-page #licensed-list .info-item, .line-ellipsis, .new-series .list-detail .series-title, .page-author .author_name, .private-tabs header .user-name, .rank-cirle .series-detail .series-title, .thumb-item-flow .thumb_attr.chapter-title, .thumb-item-flow .thumb_attr.volume-title, .user-pm .mail-name, .user-pm .sender-name, table.broad-table tr td, table.broad-table tr td .topic-username, table.broad-table tr th, table.listext-table tr td, table.listext-table tr td small, table.listext-table.has-covers tr td .series-name, ul.bookmarks_list .chapter-title, ul.bookmarks_list .volume-title, ul.list-chapters li .chapter-name, ul.mail-participants li, ul.others-list li small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.small, small {
+  font-size: 80%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+.thumb-see-more {
+  background-color: rgba(0,0,0,.5);
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  .see-more-inside {
+    border: 1px solid #eee;
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .see-more-content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    .see-more-icon {
+      font-size: 40px;
+    }
+  }
+}

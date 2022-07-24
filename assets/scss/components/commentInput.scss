@@ -1,0 +1,19 @@
+.comment_toolkit {
+  background-color: #c4eae269;
+  border: 1px solid #ccc;
+  border-radius: 0 0 4px 4px;
+  border-top: 0;
+  padding: 6px;
+  display: flex;
+  justify-content: flex-end;
+}
+.button-comment {
+  line-height: normal;
+  padding: 6px 20px;
+  transition: all .3s;
+  background-color: #36a189;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+}

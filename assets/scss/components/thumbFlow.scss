@@ -1,0 +1,67 @@
+.thumb-item-flow {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  .thumb-wrapper {
+    color: #fff;
+    position: relative;
+  }
+  .thumb-detail {
+    background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.8) 67%,rgba(0,0,0,.8));
+    bottom: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000",endColorstr="#cc000000",GradientType=0);
+    left: 0;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+  }
+  .thumb_attr {
+    &.chapter-title {
+      font-weight: 700;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &.series-title {
+      font-size: 14px;
+      font-weight: 700;
+      height: 42px;
+      line-height: 20px;
+      margin-bottom: 4px;
+      margin-top: 6px;
+      overflow: hidden;
+      text-align: center;
+    }
+}
+}
+.last-chapter {
+  &.original {
+    .thumb_attr.volume-title {
+      color: #4ebef7;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+}
+.a6-ratio {
+  overflow: hidden;
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 143.3333333333%;
+    width: 100%;
+  }
+  &>.content {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+.a6-ratio {
+  position: relative;
+}
